@@ -1,70 +1,47 @@
-# Getting Started with Create React App
+# 💻  Astromatch: Projeto clone do Tinder
+   
+## :dart: Objetivo do projeto:
+O objetivo desse projeto é treinar a mudança de componentes de classe para componentes funcionais, focando na utilização dos Hooks (useState() e useEffect()) vistos durante as aulas da 9ª semana do bootcamp fullstack da Labenu. Além de exercitar todos os conceitos vistos anteriormente no curso para fixar o funcionamento do React.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## :small_blue_diamond: Requisitos do projeto:
+   
+- Tela inicial: O usuário deve ser capaz de ver uma opção de perfil pra escolher (devem ser mostrados a foto, o nome, e a descrição dos perfis). Dois botões devem estar na tela: um que permita "dar match" e outro que permita descartar a sugestão. E por fim um botão que leve a tela de matches.
+- Tela de matches: Lista contendo os usuários que deram match com o usuário que estiver usando a aplicação. Mostrar a foto e o nome.
+- Possibilidade de resetar: permitir que o usuário limpe as informações dos matches que deram a qualquer momento. Adicionar um botão que deixe bem claro isso (mensagem ou ícone pertinente)
+   
+<br>
 
-## Available Scripts
+## ⚙️ Funcionalidades:
+- Botão de dar match; 
+- Botão que descarta o perfil - chama um novo perfil pra ser escolhido ou não;
+- Botões que permitem transitar entre as telas;
+- Na tela inicial, quando o usuário der match com todos os perfis cadastrados aparece uma mensagem e um botão para que ele possa resetar, caso deseje;
+- Na tela de matches eh possível ver a lista com matches;
+- Na tela de matches existe um botão que reseta os matches;
+- Na tela de matches eh possível clicar em algum perfil e ser redirecionado para uma tela de chat;
+- Na tela de chat o usuário poder bater um papo bem aleatório com seus matches.
 
-In the project directory, you can run:
+## :books: Bibliotecas utilizadas:
+- [styled-components](https://styled-components.com/)
+- [axios](https://github.com/axios/axios)
+- [react-icons](https://react-icons.github.io/react-icons)
 
-### `npm start`
+## 🔗 Link Surge: 
+[Acesse o Astromatch clicando aqui!!!](https://layane-astromach.surge.sh/)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 👨‍💻 Desenvolvedora:
+   
+| [<img src="https://avatars.githubusercontent.com/u/50851374?v=4" width=115><br><sub>Layane Bastos Juvito</sub>](https://www.linkedin.com/in/layanebastos/)
+| :---: | 
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 📸 Imagens:
 
-### `npm test`
+#### DESKTOP
+![image](https://user-images.githubusercontent.com/50851374/164267954-57421c36-ba84-453e-aa81-f46e16b267c5.png)
+![image](https://user-images.githubusercontent.com/50851374/164268131-1d138c03-0c96-4983-a0c6-7740c1a2dc29.png)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+#### MOBILE (exemplo iphone 6/7/8)
+![image](https://user-images.githubusercontent.com/50851374/164268832-a59ad468-61ca-4079-9928-2b1d744230c7.png)
+![image](https://user-images.githubusercontent.com/50851374/164269083-9a4103eb-6fd0-46d9-965a-55f78dcc8ed7.png)
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+   
